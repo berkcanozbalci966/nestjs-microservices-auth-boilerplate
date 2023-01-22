@@ -7,6 +7,7 @@ export class AuthController {
 
   @Get()
   getHello(): string {
+    console.log('hello world!!');
     return this.authService.getHello();
   }
 }
